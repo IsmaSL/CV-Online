@@ -24,49 +24,6 @@
     <!-- Start your project here-->
     <!-- Navigation -->
     <header>
-        <style>
-            .navbar .navbar-brand img {
-                height: 20px;
-            }
-            
-            .navbar .navbar-brand {
-                padding-top: 0;
-            }
-            
-            .navbar .nav-link {
-                color: #444343!important;
-            }
-            
-            .navbar .button-collapse {
-                padding-top: 1px;
-            }
-            
-            .card-intro .card-body {
-                padding-top: 1.5rem;
-                padding-bottom: 1.5rem;
-                border-radius: 0 !important;
-            }
-            
-            .card-intro .card-body h1 {
-                margin-bottom: 0;
-            }
-            
-            .card-intro {
-                margin-top: 64px;
-            }
-            
-            @media (max-width: 450px) {
-                .card-intro {
-                    margin-top: 56px;
-                }
-            }
-            
-            @media (min-width: 1441px) {
-                .card-intro {
-                    padding-left: 0 !important;
-                }
-            }
-        </style>
         <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
             <div class="container">
@@ -80,45 +37,45 @@
                 </button>
                 <!-- Links -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
                     <!-- Left -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">jQuery</a>
+                            <a class="nav-link waves-effect" href="#top" target="_self">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/angular/" target="_blank">Angular</a>
+                            <a class="nav-link waves-effect" href="#more" target="self">Sobre mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/react/" target="_blank">React</a>
+                            <a class="nav-link waves-effect" href="#comp" target="self">Competencias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/vue/" target="_blank">Vue</a>
+                            <a class="nav-link waves-effect" href="#cont" target="_self">Contacto</a>
                         </li>
                     </ul>
-
                     <!-- Right -->
                     <ul class="navbar-nav nav-flex-icons">
                         <li class="nav-item">
-                            <a href="https://www.facebook.com/mdbootstrap" class="nav-link waves-effect" target="_blank">
+                            <a href="https://www.facebook.com/IsmaSL7w7" class="nav-link waves-effect" target="_blank">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://twitter.com/MDBootstrap" class="nav-link waves-effect" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link waves-effect" target="_blank">
+                            <a href="https://github.com/IsmaSL" class="nav-link waves-effect" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="www.linkedin.com/in/IsmaSL" class="nav-link waves-effect" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <!--
                         <li class="nav-item">
                             <a href="https://mdbootstrap.com/docs/jquery/newsletter/" class="nav-link border border-light rounded waves-effect mr-2" target="_blank">
                                 <i class="fas fa-envelope mr-1"></i>Newsletter
                             </a>
                         </li>
+                        -->
                     </ul>
                 </div>
             </div>
@@ -132,7 +89,7 @@
             <!-- Content -->
             <div class="container">
                 <!--Grid row-->
-                <div class="row align-items-center d-flex">
+                <div class="row d-flex">
                     <!--Grid column-->
                     <div class="col-md-7 white-text text-center text-md-left mt-5 mb-3 wow fadeInLeft" data-wow-delay="0.5s">
                         <h3>¡Hola mundo!</h3>
@@ -154,7 +111,7 @@
                     <!--Grid column-->
                 </div>
                 <!--Grid row-->
-                <div class="row align-items-center">
+                <div class="row">
                     <div class="col-12 wow fadeInDown my-5" data-wow-delay="0.7s">
                         <a href="#more">
                             <img class="img" src="img/arrow-down_2.gif" alt="Arrow-down" width="100px">
@@ -348,7 +305,7 @@
     </section>
     <!--Section: Blocks SKILLS-->
     <!--Section: Content COMPETENCES -->
-    <section class="py-5 px-3">
+    <section class="py-5 px-3" id="comp">
         <div class="container mb-3">
             <!--Title-->
             <h1 class="h1-responsive font-weight-bold text-center sm-5 mt-3">Competencias</h1>
@@ -558,8 +515,8 @@
                     <div class="col-lg-4 col-md-12 mb-5">
                         <!-- Panel -->
                         <div class="card">
-                            <div class="card-header white-text warning-color">
-                                Things to improve
+                            <div class="card-header white-text success-color">
+                                Relacionado con el desarrollo
                             </div>
                             <div class="card-body text-center px-4">
                                 <div class="list-group list-group-flush">
@@ -587,8 +544,8 @@
                     <div class="col-lg-4 col-md-6 mb-5">
                         <!-- Panel -->
                         <div class="card">
-                            <div class="card-header white-text success-color">
-                                Tasks to do
+                            <div class="card-header white-text warning-color">
+                                Gestionamiento de proyectos
                             </div>
                             <div class="card-body text-center px-4">
                                 <div class="list-group list-group-flush">
@@ -648,16 +605,17 @@
     </section>
     <!--Section: Content PLUS -->
     <!--Section: Content CONTACT -->
-    <section class="py-5 px-3">
+    <section class="py-5 px-3" id="cont">
         <div class="container">
             <!--Title-->
             <h1 class="h1-responsive font-weight-bold text-center sm-5 mt-3">Información de Contacto</h1>
             <hr class="w-header my-3 grey">
             <p class="lead text-center text-muted mb-4">Si deseas ponerte en contacto conmigo, puedes usar caulquiera de los siguientes medios, siempre estaré al tanto.</p>
             <!--Grid row-->
-            <div class="row d-flex justify-content-center">
+            <div class="row">
                 <!--Grid column-->
-                <div class="col-md-4 mb-5 mb-md-0">
+                <div class="col-md-1 mb-0 contact text-center"></div>
+                <div class="col-md-5 mb-5 contact text-center">
                     <h5 class="font-weight-bold"><i class="fas fa-map-marker-alt pr-2"></i>Direccion</h5>
                     <p class="mb-0 ml-4">Orizaba, 94400</p>
                     <p class="mb-4 ml-4 pb-2">Veracruz, México</p>
@@ -669,7 +627,7 @@
                     <p class="mb-0 ml-4">ucmex_isma@hotmail.com</p>
                     <p class="mb-0 ml-4">ismasaintross@gmail.com</p>
 
-                    <hr class="my-3">
+                    <hr class="w-75 my-3">
 
                     <h5 class="font-weight-bold pb-3"><i class="fas fa-share-alt pr-2"></i>Otros medios:</h5>
                     <!-- Facebook -->
@@ -687,9 +645,10 @@
 
                 </div>
                 <!--Grid column-->
-                <div class="col-md-5 mb-5 mb-md-0">
+                <div class="col-md-5 mb-5">
                     <img src="img/4.png" class="img-fluid" alt="Contact Me">
                 </div>
+                <div class="col-md-1 mb-0 contact text-center"></div>
                 <!--Grid column-->
             </div>
             <!--Grid row-->
@@ -734,11 +693,10 @@
     <!-- Your custom scripts (optional) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.2.2/web-animations.min.js "></script>
+    <script type="text/javascript " src="js/table.js"></script>
     <script>
         new WOW().init();
     </script>
-    <script type="text/javascript " src="js/table.js"></script>
-
 </body>
 
 </html>
